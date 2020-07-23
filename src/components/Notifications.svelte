@@ -47,7 +47,7 @@
   import Notification from './Notification.svelte';
   import DefaultNotification from './DefaultNotification.svelte';
 
-  import context from '../context';
+  import { context } from '../context';
   import store from '../store';
   import positions from '../positions';
 

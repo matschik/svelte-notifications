@@ -1,6 +1,6 @@
-import { getContext } from 'svelte';
+import { getContext } from "svelte";
 
-const context = {
+export const context = {
   subscribe: null,
   addNotification: null,
   removeNotification: null,
@@ -8,5 +8,3 @@ const context = {
 };
 
 export const getNotificationsContext = () => getContext(context);
-
-export default context;
