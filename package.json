@@ -3,8 +3,8 @@
   "description": "Extremely simple and flexible notifications for Svelte",
   "version": "0.9.9",
   "svelte": "src/index.js",
-  "module": "build/bundle.mjs",
-  "main": "build/bundle.js",
+  "module": "src/index.js",
+  "main": "src/index.js",
   "author": "Keenethics <founders@keenethics.com>",
   "license": "MIT",
   "keywords": [
