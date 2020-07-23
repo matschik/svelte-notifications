@@ -1,4 +1,4 @@
-const positions = [
+export default [
   'top-left',
   'top-center',
   'top-right',
@@ -6,5 +6,3 @@ const positions = [
   'bottom-center',
   'bottom-right',
 ];
-
-export default positions;
